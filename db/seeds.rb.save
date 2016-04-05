@@ -1,0 +1,9 @@
+10.times do
+     Book.create(
+        name: Faker::Name.name,
+        description: Faker::DizzleIpsum.sentence,
+        price:
+        email: Faker::Internet.email,
+        password: Faker::Internen.password
+      ) 
+end 
