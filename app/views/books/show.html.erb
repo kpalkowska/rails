@@ -25,5 +25,7 @@
   <%= @book.img_url %>
 </p>
 
-<%= link_to 'Edit', edit_book_path(@book), class: "btn btn-success" %>
+<% if logged_in? %>
+  <%= link_to 'Edit', edit_book_path(@book), class: "btn btn-success" %>
+<% end %>
 <%= link_to '', books_path, class: "btn btn-default btn-outline glyphicon glyphicon-arrow-left" %>
