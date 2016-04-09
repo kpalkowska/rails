@@ -2,7 +2,9 @@
 <% provide(:title, "Index") %>
 <h1>Books</h1>
 
-<%= link_to "", new_book_path, class: "btn btn-success btn-outline glyphicon glyphicon-plus" %>
+<% if logged_in? %>
+  <%= link_to "", new_book_path, class: "btn btn-success btn-outline glyphicon glyphicon-plus" %>
+<% end %>
 <br>
 <table>
   <thead>
