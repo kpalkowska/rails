@@ -1,4 +1,9 @@
-|Wersja Ruby|Wersja Rails|Baza danych|
+##Klaudia Pałkowska - Aplikacja Books App
+kpalkowska@sigma.ug.edu.pl
+
+#Zaliczenie
+
+Wersja Ruby|Wersja Rails|Baza danych|
 |---|---|---|
 |2.3.0p0|5.0.0.beta3|PostgreSQL|
 
