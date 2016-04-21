@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 <% provide(:title, "Show") %>
+
+  <div class="image">
+    <%= image_tag @book.img_url %>
+  </div>
+
 <p>
   <strong>Name:</strong>
   <%= @book.name %>
@@ -18,11 +23,6 @@
 <p>
   <strong>Author:</strong>
   <%= @book.author_id %>
-</p>
-
-<p>
-  <strong>Img url:</strong>
-  <%= @book.img_url %>
 </p>
 
 <% if logged_in? %>
