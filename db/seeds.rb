@@ -1,6 +1,6 @@
 1000.times do
      Book.create(
-        name: Faker::Book.Title,
+        name: Faker::Book.title,
         description: Faker::Hipster.sentence(10),
         price: Faker::Number.decimal(2),
         author_id: Faker::Number.between(1,100),
